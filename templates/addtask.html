@@ -8,8 +8,8 @@
                 <i class="material-icons prefix">poll</i>
                 <select id="category" name="category_name">
               <option value="" disabled selected>Choose your option</option>
-              {% for cate in categories %}
-              <option value="{{cate.category_name}}">{{cate.category_name}}</option>
+              {% for cat in categories %}
+              <option value="{{cat.category_name}}">{{cat.category_name}}</option>
               {% endfor %}
             </select>
                 <label>Task Category</label>
